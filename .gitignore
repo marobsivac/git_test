@@ -28,8 +28,7 @@ ENV/
 
 # Testy / coverage
 .coverage
-coverage.
-xml
+coverage.xml
 htmlcov/
 
 # Logy a dočasné soubory
@@ -44,3 +43,4 @@ htmlcov/
 # OS drobnosti
 .DS_Store
 Thumbs.db
+
