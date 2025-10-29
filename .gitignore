@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+build/
+
+# Virtuální prostředí
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# VS Code (ponech si jen to, co chceš verzovat)
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Testy / coverage
+.coverage
+coverage.
+xml
+htmlcov/
+
+# Logy a dočasné soubory
+*.log
+*.tmp
+*.temp
+
+# Konfigurace/sekrety
+.env
+*.env
+
+# OS drobnosti
+.DS_Store
+Thumbs.db
