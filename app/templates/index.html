@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Page</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #74ABE2, #5563DE);
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            margin-top: 15%;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+        }
+        p {
+            font-size: 1.2em;
+            color: #e0e0e0;
+        }
+        .box {
+            background-color: rgba(255, 255, 255, 0.15);
+            padding: 40px;
+            border-radius: 12px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Hello {{ name }}!</h1>
+        <p>Welcome to your first Flask + Jinja2 page 🎉</p>
+    </div>
+</body>
+</html>
